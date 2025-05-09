@@ -1,4 +1,4 @@
-#POLISH:
+# POLISH:
 Jest to projekt który musiałem wykonać aby zaliczyć przedmiot na pg. Wykorzystuje on algorytm djikstry i nie wolno używać w nim STL, a testy obejmowały plansze wielkości 2000x2000 z przykładowo 10000 wagonami. Maksymalny czas wykonania to 15 sekund, mój program
 wykonał to zadanie w niecałe 7 sekund.
 Oto polecenie:
@@ -44,7 +44,7 @@ Wyjście
 22
 Komentarz do drugiego testu: Robimy krok w dół (1 minuta). Tu mamy do dyspozycji dwa wyciągi, jeden odchodzi co 2 minuty, drugi co 3. Wybieramy ten drugi, i choć czekamy dłużej (2 minuty), do w (2, 0) będziemy szybciej – w 4. minucie. 
 Tu czekamy kolejne 3 minuty na wyciąg do (4, 0) i docieramy tam w 10. minucie. Robimy dwa kroki w dół do (4, 2). Docieramy tam w 12 minucie, wsiadamy do wyciągu i w (8, 8) jesteśmy po 22 minutach.
-#ENGLISH:
+# ENGLISH:
 The goal of the task is to find the shortest route through a given terrain. The terrain is divided into fields. Each field has a certain height, expressed as a non-negative integer. Moving to a field of height A from a field of height B takes:
 A - B + 1 minutes, if A > B, 1 minute, if A ≤ B. We can move only to fields adjacent by side, so from a given field we can move to at most four neighboring fields. We cannot leave the area described by the map.
 There may be a number of lifts in the area. A lift allows you to travel from its starting point to its destination point (it is one-way). Using the lift takes a certain number of minutes. 
